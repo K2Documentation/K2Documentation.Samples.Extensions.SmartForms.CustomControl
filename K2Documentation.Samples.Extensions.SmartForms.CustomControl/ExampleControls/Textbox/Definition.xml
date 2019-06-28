@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ControlType>
+  <FullName>K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls.TextBox.Control, K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls</FullName>
+  <Category>Input</Category>
+  <Group>Custom</Group>
+  <Name>MyTextBox</Name>
+
+  <GetValueMethod>CustomControl.TextBox.getValue</GetValueMethod>
+  <SetValueMethod>CustomControl.TextBox.setValue</SetValueMethod>
+
+  <DataTypes>
+    <DataType>AutoNumber</DataType>
+    <DataType>Text</DataType>
+    <DataType>Memo</DataType>
+  </DataTypes>
+
+  <Events>
+    <Event>OnChange</Event>
+    <Event>OnClick</Event>
+  </Events>
+  <DefaultEventName>OnChange</DefaultEventName>
+
+  <Properties>
+    <Prop ID="ControlName" mappable="false" ValidationPattern="\S" ValidationMessage="InvalidName" DesignerValidate="SourceCode.Forms.Designers.validateControlName" friendlyname="Name" type="string" category="Detail" inputlength="255" />
+    <Prop ID="Field" mappable="false" friendlyname="Field" category="Detail" refreshdisplay="true" ReadOnly="true" />
+    <Prop ID="DataType" mappable="false" setFunction="SetDataType" friendlyname="Data Type" type="drop" category="Detail" refreshdisplay="true" getDropItemsFunction="getDataTypesForControl" SelectionValue="" SelectionText="" inputlength="255">
+      <InitialValue>Text</InitialValue>
+    </Prop>
+    <Prop ID="ControlExpression" friendlyname="Expression" type="complex" category="General" DesignerSet="SourceCode.Forms.Designers.View.Conditions._showControlCalculation" />
+  </Properties>
+</ControlType>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ControlType>
+  <FullName>K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls.WithStyles.ControlWithStyles, K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls</FullName>
+  <Category>Display</Category>
+  <Group>Custom</Group>
+  <Name>WithStyles</Name>
+  <DisplayName>Custom Control with Styles</DisplayName>
+
+  <GetPropertyMethod>CustomControls.WithStyles.getProperty</GetPropertyMethod>
+  <SetPropertyMethod>CustomControls.WithStyles.setProperty</SetPropertyMethod>
+
+  <Properties>
+    <Prop ID="Styles" setFunction="CustomControls.WithStyles.setStyles" friendlyname="Styles" type="complex" category="General" refreshdisplay="true"
+      DesignerSet="SourceCode.Forms.Designers.View.Styles._showEditStyles" />
+  </Properties>
+
+  <Styles>
+    <Style IsDefault="True">
+      <Font>
+        <Family />
+        <Size />
+        <Color />
+        <Style />
+        <Weight />
+      </Font>
+      <BackgroundColor />
+      <Text>
+        <Decoration />
+        <Align />
+      </Text>
+    </Style>
+  </Styles>
+
+</ControlType>

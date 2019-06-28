@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ControlType>
+  <FullName>K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls.HelloWorld.Control, K2Documentation.Samples.Extensions.SmartForms.CustomControl.ExampleControls</FullName>
+  <Category>Display</Category>
+  <Group>Custom</Group>
+  <Name>HelloWorld</Name>
+</ControlType>

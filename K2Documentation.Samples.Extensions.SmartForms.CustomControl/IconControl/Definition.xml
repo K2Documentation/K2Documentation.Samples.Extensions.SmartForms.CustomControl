@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ControlType>
+  <FullName>K2Documentation.Samples.Extensions.SmartForms.CustomControl.IconControl, K2Documentation.Samples.Extensions.SmartForms.CustomControl.CustomControl</FullName>
+  <Category>Display</Category>
+  <Group>Custom</Group>
+  <Name>IconControl</Name>
+</ControlType>

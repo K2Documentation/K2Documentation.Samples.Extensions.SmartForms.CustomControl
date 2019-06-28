@@ -1,0 +1,30 @@
+﻿/* Rules Designer:  Action configuration mappings screens context trees (1) */
+.tree li.iconcontrol-control > a,
+.tree li.iconcontrol-control > span,
+.tree li.iconcontrol-control.children > a,
+.tree li.iconcontrol-control.children.open > a,
+.tree li.iconcontrol-control.children.closed > a,
+.tree li.iconcontrol-control.children > span,
+/* Rules Designer: Action configuration target mappings screens where the control has been dropped (2) */
+.token-input .entity.icon.iconcontrol-control .entity-text,
+/* Rules Designer: Navigate to Form action in the URL preview (3) */
+#FormNavigatePreviewPanel .token.iconcontrol-control,
+/* View/Form Designer: Droppable control's list on the right and the change control popup list(4) */
+.toolboxitem.iconcontrol-control,
+/* Runtime: List View filter mappings popup target dropped control (5) */
+.theme-entry .drop-item.iconcontrol-control,
+/* Runtime: List View filter mappings popup context tree (6) */
+.theme-entry .tree li.iconcontrol-control > a,
+.theme-entry .tree li.iconcontrol-control.children.open > a,
+.theme-entry .tree li.iconcontrol-control.children.closed > a,
+.theme-entry .tree li.iconcontrol-control > span,
+/* Rule Designer: Action hot spot context menu (7) */
+.menu a.menu-item.control-iconcontrol span.menu-item-icon,
+/* Rule Designer: Action configuration target mappings tree (8) */
+.input-control.icon-control.iconcontrol-control .input-control-icon,
+/* Rule Designer: Transfer data action configuration target mappings screen dropped item (9) */
+.drop-item.iconcontrol-control,
+/*  View Designer: While dragging and dropping control on to the canvas (10) */
+a.ui-draggable-dragging.iconcontrol-control {
+    background-image: url(<%= WebResource("icon.png")%>);
+}
