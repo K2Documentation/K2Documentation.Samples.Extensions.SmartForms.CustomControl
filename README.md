@@ -1,6 +1,9 @@
 # K2Documentation.Samples.Extensions.SmartForms.CustomControl
 Sample code that demonstrates how to programmatically extend the functionality and look of the standard set of controls provided with K2 smartforms.
 
+Find more information in the K2 Developers Reference here:
+https://help.k2.com/onlinehelp/k2five/DevRef/current/default.htm#Controls/Ctrl-Samples.htm
+
 This project contains sample code that demonstrates how to build basic custom controls and then expand on them. The code samples are arranged in folders within the solution and demonstrate the following basic custom control functionality:
 * BasicControl - The Basic Custom Control
 * JavaScriptControl - The Custom Control with JavaScript
